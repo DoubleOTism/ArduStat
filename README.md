@@ -11,12 +11,12 @@ This project involves creating a custom thermostat using Arduino. It allows for 
 - 4x4 Membrane Keypad
 - RTC (Real Time Clock) Module DS1302
 
-## Wiring Guide
-- BMP280 -> Arduino (I2C communication)
-- OLED Display -> Arduino (I2C communication)
-- Relay Module -> Digital Pin (e.g., D2)
-- Keypad -> Digital Pins (e.g., D6-D13)
-- RTC Module -> Digital Pins (e.g., D3-D5)
+## Required Libraries
+- Adafruit BMP280 Library
+- Adafruit Sensor Library
+- U8g2lib for OLED display
+- RTClib for Real Time Clock
+- EEPROM.h for memory management
 
 ## Features
 - Adjustable temperature settings for different times and days
@@ -36,13 +36,13 @@ Tento projekt zahrnuje vytvoření vlastního termostatu s použitím Arduina. U
 - I2C OLED displej (1.3" - 128x64, bílý)
 - Membránová klávesnice 4x4
 - RTC (Real Time Clock) Modul DS1302
-
-## Návod na Zapojení
-- BMP280 -> Arduino (komunikace I2C)
-- OLED Displej -> Arduino (komunikace I2C)
-- Relé Modul -> Digitální Pin (např. D2)
-- Klávesnice -> Digitální Piny (např. D6-D13)
-- RTC Modul -> Digitální Piny (např. D3-D5)
+  
+## Použité Knihovny
+- Knihovna Adafruit BMP280
+- Knihovna Adafruit Sensor
+- U8g2lib pro OLED displej
+- RTClib pro Real Time Clock
+- EEPROM.h pro správu paměti
 
 ## Funkce
 - Nastavitelné teplotní režimy pro různé časy a dny
